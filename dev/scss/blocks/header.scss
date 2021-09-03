@@ -15,8 +15,11 @@ header .container {
 
 header img {
 	width: 100%;
-	max-width: 340px;
+	max-width: 260px;
 	padding: 1rem 0;
+	@include mobile{
+		width: 200px;
+	}
 }
 
 header p {

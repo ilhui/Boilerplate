@@ -3,16 +3,28 @@
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	
 }
-
+.divider .container {
+	width: 90%;
+	margin: 0 auto;
+	text-align: left;
+	@include tablet {
+		text-align: center;
+	}
+}
 .divider p,
 .divider a {
 	display: inline-block;
 	vertical-align: middle;
+	@include tablet {
+		margin: 0 auto;
+		display: block;
+	}
 }
 
 .divider p {
-	width: 70%;
+	width: 60%;
 	font-size: 1.5rem;
 }
 
@@ -31,5 +43,9 @@
 	&:hover {
 		background-color: $acent-color;
 		border: 1px solid $acent-color;
+	}
+	@include tablet {
+		margin: 0 auto;
+		margin-top: 1.25rem;
 	}
 }

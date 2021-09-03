@@ -4,10 +4,17 @@
 	flex-wrap: nowrap;
 	align-items: flex-start;
 	justify-content: space-evenly;
+	@include tablet {
+		flex-direction: column;
+	}
 }
 
 .main-about {
 	flex: 1 1 60%;
+	@include tablet {
+		width: 90%;
+		margin: 0 auto;
+	}
 }
 
 .main-general {
