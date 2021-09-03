@@ -10,19 +10,19 @@ $desktop: 1400px;
 }
 
 @mixin tablet {
-  @media screen and (min-width: $tablet) {
+  @media screen and (max-width: $tablet) {
     @content;
   }
 }
 
 @mixin laptop {
-  @media screen and (min-width: $laptop) {
+  @media screen and (max-width: $laptop) {
     @content;
   }
 }
 
 @mixin desktop {
-  @media screen and (min-width: $desktop) {
+  @media screen and (max-width: $desktop) {
     @content;
   }
 }
