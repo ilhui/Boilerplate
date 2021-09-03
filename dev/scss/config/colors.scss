@@ -2,8 +2,12 @@
 	--primary-color: #030205;
 	--second-color: #fcfaff;
 	--acent-color: #7d39ff;
+	--acent-color-alpha: #7e39ff77;
+	--dark-color: #120C1F;
 }
 
 $primary-color: var(--primary-color);
 $second-color: var(--second-color);
 $acent-color: var(--acent-color);
+$acent-color-alpha: var(--acent-color-alpha);
+$dark-color: var(--dark-color);

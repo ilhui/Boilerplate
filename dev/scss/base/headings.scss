@@ -1,9 +1,33 @@
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h5,h6 {
 	font-family: $font-title;
 }
 
 h1 {
 	font-size: 2.6rem;
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+h2 {
+	font-size: 2rem;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 4rem;
+}
+
+h3 {
+	margin: 0;
+	margin-bottom: 1rem;
+	color: $acent-color;
+	font-weight: 600;
+}
+
+
+h4 {
+	margin: 0;
+	font-family: $font-body;
 }
 
 p {
@@ -15,4 +39,11 @@ p {
 i {
 	color: $acent-color;
 	font-size: 1.25rem;
+}
+
+a {
+	text-decoration: none;
+	font-family: $font-body;
+	font-weight: 700;
+	font-size: .8rem;
 }

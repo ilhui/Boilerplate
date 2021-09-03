@@ -1,0 +1,79 @@
+.teachers-grid {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-template-rows: repeat(2,1fr);
+	justify-content: center;
+	align-items : stretch;
+	grid-gap: .5rem;
+}
+
+.teachers-items {
+	width: 100%;
+	height: auto;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.teachers-front,
+.teachers-back {
+	height: 100%;
+}
+
+.teachers-front {
+	background-color: $primary-color;
+}
+
+.teachers-back {
+	position:absolute;
+	left: 0;
+	box-sizing: border-box;
+	background-color: $acent-color;
+	padding: 1rem;
+	opacity: 0;
+	@include transition;
+} 
+
+.teachers-items:hover .teachers-back {
+	opacity: 1;
+	top: 0;
+}
+
+.teachers-image img {
+	width: 100%;
+}
+.teachers-info {
+	text-align: center;
+}
+.teachers-info h3 {
+	margin: 0;
+	color: $second-color;
+}
+.teachers-info span {
+	display: block;
+	width: 80%;
+	font-size: .8rem;
+	margin: 0 auto;
+	padding: .5rem;
+	color: $second-color;
+	opacity: .6;
+}
+
+.teachers-back p {
+	font-size: .9rem;
+	line-height: 1.25rem;
+	margin: 0;
+	vertical-align: middle;
+	color: $second-color;
+}
+
+.teachers-back i {
+	padding-top: 1rem;
+	color: $second-color;
+}
+.teachers-back i a {
+	padding-left: .5rem;
+	position: relative;
+	top: -4px;
+	color: $second-color
+}

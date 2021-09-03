@@ -1,8 +1,14 @@
 .container
 	h2 Contenido
-	each value, index in modules
-		img(src="assets/images/modules/"+`${value.photo}`+".png", alt="Imagen "+`${value.name}`)
-		p= `Módulo ${index+1}`
-		h3= value.name
-		h4= `Por ${value.teacher}`
-		p= value.description
+	.modules-grid
+		each value, index in modules
+			.modules-items
+				.modules-front
+					.modules-image
+						img(src="assets/images/modules/"+`${value.photo}`+".png", alt="Imagen "+`${value.name}`)
+					.modules-info
+						p= `Módulo ${index+1}`
+						h3= value.name
+						h4= `Por ${value.teacher}`
+				.modules-back
+					p= value.description
