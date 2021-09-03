@@ -1,8 +1,9 @@
-h2 Profesores
-each value in teachers
-	img(src="assets/images/teachers/"+`${value.photo}`+".png", alt="Fotografía "+`${value.name}`)
-	h3= value.name
-	p= value.title
-	p= value.about
-	i.fab.fa-instagram
-		a(href=value.link, target="_blank")= value.instagram
+.container
+	h2 Profesores
+	each value in teachers
+		img(src="assets/images/teachers/"+`${value.photo}`+".png", alt="Fotografía "+`${value.name}`)
+		h3= value.name
+		p= value.title
+		p= value.about
+		i.fab.fa-instagram
+			a(href=value.link, target="_blank")= value.instagram

@@ -5,11 +5,14 @@
 //Mixins
 @import "mixins/breakpoints";
 @import "mixins/reset-list";
+@import "mixins/transitions";
 
 //Estilos base
 @import "base/normalize";
 @import "base/base";
+@import "base/headings";
 
 // Bloques
+@import "blocks/header";
 
 // Pages

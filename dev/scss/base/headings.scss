@@ -1,0 +1,14 @@
+h1,h2,h3,h4,h5,h6 {
+	font-family: $font-title;
+}
+
+p {
+	font-size: 1.2rem;
+	line-height: 2rem;
+	font-weight: 200;
+}
+
+i {
+	color: $acent-color;
+	font-size: 1.25rem;
+}

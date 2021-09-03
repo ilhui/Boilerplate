@@ -1,5 +1,29 @@
 body {
-	background-color: $second-color;
 	font-family: $font-body;
 	color: $primary-color;
+	background-color: $second-color;
+	font-size: 1em;
+}
+
+ul {
+	@include reset-list;
+}
+
+header,
+.modules,
+.divider,
+footer {
+	background-color: $primary-color;
+	color: $second-color;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 12px;
+	max-width: 960px;
+}
+
+button {
+	background-color: transparent;
+	border: none;
 }
