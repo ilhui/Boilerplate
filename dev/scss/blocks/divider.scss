@@ -1,0 +1,35 @@
+.divider {
+	background-image: url('../assets/images/backgrounds/back-divider.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.divider p,
+.divider a {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.divider p {
+	width: 70%;
+	font-size: 1.5rem;
+}
+
+.divider a {
+	text-align: center;
+	padding: 1rem;
+	box-sizing: border-box;
+	width: 220px;
+	height: 60px;
+	border: 1px solid $second-color;
+	margin-left: 2rem;
+	color: $second-color;
+	font-size: 1.2rem;
+	font-weight: 600;
+	@include transition;
+	&:hover {
+		background-color: $acent-color;
+		border: 1px solid $acent-color;
+	}
+}
