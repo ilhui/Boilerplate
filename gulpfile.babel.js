@@ -114,7 +114,7 @@ gulp.task('clean', () => {
 
 gulp.task('imgmin', () => {
 	return gulp
-		.src('./dev/assets/images/*')
+		.src('./dev/assets/images/**/*')
 		.pipe(plumber())
 		.pipe(imagemin([
 			imagemin.gifsicle({ interlaced: true }),
