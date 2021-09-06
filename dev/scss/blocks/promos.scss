@@ -1,0 +1,43 @@
+.promo-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	text-align: center;
+}
+
+.promo-item {
+	width: 240px;
+	height: auto;
+	padding: 1rem;
+	padding-bottom: 3rem;
+	margin-bottom: 1rem;
+	background-color: #FFF;
+	box-shadow: -4px 9px 29px -4px rgba(125,57,255,0.1);
+}
+
+.promo-item p {
+	font-size: 5rem;
+	font-family: $font-title;
+	font-weight: 900;
+	color: $acent-color;
+}
+
+.promo-item h5 {
+	font-size: 1.5rem;
+	margin: 0;
+}
+
+.promo-item ul {
+	margin: 1.5rem 0;
+}
+
+.promo-item ul li {
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+
+.promo-item span {
+	font-size: .8rem;
+	font-style: italic;
+	color: $acent-color;
+}

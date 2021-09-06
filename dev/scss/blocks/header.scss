@@ -11,6 +11,12 @@ header .container {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	@include mobile {
+		height: 90vh;
+	}
+	@include mobile {
+		height: 80vh;
+	}
 }
 
 header img {

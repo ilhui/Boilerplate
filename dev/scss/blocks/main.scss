@@ -29,3 +29,37 @@
 	padding-left: 1rem;
 	margin-bottom: 0;
 }
+
+
+
+.main-highlights {
+	margin-top: 6rem;
+}
+
+.main-highlights ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.main-highlights li {
+	width: 260px;
+	padding: 1rem;
+	height: auto;
+	text-align: center;
+}
+
+.main-highlights li span {
+	width: 100px;
+	display: block;
+	height: 100px;
+	background-color: $acent-color;;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.main-highlights li span i { 
+	font-size: 3rem;
+	color: $second-color;
+	margin-top: 1.5rem;
+}
