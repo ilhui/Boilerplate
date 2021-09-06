@@ -36,7 +36,7 @@ import { init as server, stream, reload } from 'browser-sync'
 var plumber = require('gulp-plumber')
 
 // Minificar CSS para Producción
-const production = false
+const production = true
 
 // Pluging CSS
 const cssPlugins = [
