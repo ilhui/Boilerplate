@@ -3,13 +3,13 @@
 	.teachers-grid
 		each value in teachers
 			.teachers-items
-				.teachers-front
+				.teachers-front(class=`${value.background}`)
 					.teachers-image
 						img(src="assets/images/teachers/"+`${value.photo}`+".png", alt="Fotografía "+`${value.name}`)
 					.teachers-info
 						h3= value.name
 						span= value.title
-				.teachers-back
+				.teachers-back(class=`${value.background}`)
 						p= value.about
 						i.fab.fa-instagram
 							a(href=value.link, target="_blank")= value.instagram

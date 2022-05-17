@@ -8,7 +8,7 @@
 						img(src="assets/images/modules/"+`${value.photo}`+".png", alt="Imagen "+`${value.name}`)
 					.modules-info
 						p= `Módulo ${index+1}`
-						h3= value.name
+						h3(class=`${value.color}`)= value.name
 						h4= `Por ${value.teacher}`
-				.modules-back
+				.modules-back(class=`${value.background}`)
 					p= value.description

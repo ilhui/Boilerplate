@@ -1,5 +1,5 @@
 .divider {
-	background-image: url('../assets/images/backgrounds/back-divider.png');
+	/* background-image: url('../assets/images/backgrounds/back-divider.png'); */
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -41,8 +41,8 @@
 	font-weight: 600;
 	@include transition;
 	&:hover {
-		background-color: $acent-color;
-		border: 1px solid $acent-color;
+		background-color: $acent-color-a;
+		border: 1px solid $acent-color-a;
 	}
 	@include tablet {
 		margin: 0 auto;

@@ -27,3 +27,38 @@ button {
 	background-color: transparent;
 	border: none;
 }
+
+
+/* Headings & Backgrounds */
+
+.bgc-red {
+	background-color: $acent-color-a;
+}
+
+.bgc-yellow {
+	background-color: $acent-color-b;
+}
+
+.bgc-blue {
+	background-color: $acent-color-c;
+}
+
+.bgc-pink {
+	background-color: $acent-color-d;
+}
+
+.color-red {
+	color: $acent-color-a;
+}
+
+.color-yellow {
+	color: $acent-color-b;
+}
+
+.color-blue {
+	color: $acent-color-c;
+}
+
+.color-pink {
+	color: $acent-color-d;
+}

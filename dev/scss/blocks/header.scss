@@ -1,5 +1,5 @@
 header {
-	background-image: url('../assets/images/backgrounds/back-header.png');
+/* 	background-image: url('../assets/images/backgrounds/back-header.png'); */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -38,9 +38,21 @@ header p {
 header a i {
 	padding: 1rem;
 	font-size: 2rem;
-	color: $second-color;
+	color: $acent-color-a;
 	@include transition;
 	&:hover {
-		color: $acent-color;
+		color: $acent-color-b;
 	}
 }
+
+
+/* Span */
+.colors {
+	display: flex;
+	justify-content: space-around;
+}
+
+.colors span {
+	flex-grow: 1;
+}
+

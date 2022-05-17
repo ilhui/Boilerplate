@@ -1,13 +1,21 @@
 :root {
-	--primary-color: #030205;
+	--primary-color: #18171a;
 	--second-color: #fcfaff;
 	--acent-color: #7d39ff;
 	--acent-color-alpha: #7e39ff77;
-	--dark-color: #120C1F;
+	--acent-color-a: #bf3742;
+	--acent-color-b: #d9ad5f;
+	--acent-color-c: #57a59d;
+	--acent-color-d: #d2468b;
+	--dark-color: #18171a;
 }
 
 $primary-color: var(--primary-color);
 $second-color: var(--second-color);
 $acent-color: var(--acent-color);
 $acent-color-alpha: var(--acent-color-alpha);
+$acent-color-a: var(--acent-color-a);
+$acent-color-b: var(--acent-color-b);
+$acent-color-c: var(--acent-color-c);
+$acent-color-d: var(--acent-color-d);
 $dark-color: var(--dark-color);

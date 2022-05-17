@@ -31,14 +31,14 @@
 }
 
 .teachers-front {
-	background-color: $primary-color;
+	/* background-color: $primary-color; */
 }
 
 .teachers-back {
 	position:absolute;
 	left: 0;
 	box-sizing: border-box;
-	background-color: $acent-color;
+/* 	background-color: $acent-color; */
 	padding: 1rem;
 	opacity: 0;
 	@include transition;
@@ -77,7 +77,7 @@
 	line-height: 1.3rem;
 	margin: 0;
 	vertical-align: middle;
-	color: $second-color;
+	color: $primary-color;
 	@include tablet{
 		font-size: 1rem;
 	}
@@ -89,13 +89,13 @@
 
 .teachers-back i {
 	padding-top: 1rem;
-	color: $second-color;
+	color: $primary-color;
 }
 .teachers-back i a {
 	padding-left: .5rem;
 	position: relative;
 	top: -4px;
-	color: $second-color;
+	color: $primary-color;
 	@include mobile {
 		font-size: 1.2rem;
 		line-height: 2rem;
